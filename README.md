@@ -13,7 +13,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Tracks the clients information for different types of work that the users do for their client, and integrates a map, payments, Invoices, and descriptions of the work.
+Tracks the client information/ job information for any type of job the application user does for their client, and integrates a map for the job location, payments, invoices, and descriptions of the work and time-tracking to monitor length of the job.
 
 - **What does your app do?**
     - Our app keeps track of clients(CRM)
