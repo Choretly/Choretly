@@ -31,11 +31,11 @@ Tracks the clients information for different types of work that the users do for
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Business/Customer Tracker
-- **Mobile:** Website view isnt planned initially, mobile first experience.
-- **Story:**
-- **Market:** Organization
-- **Habit:** Tracking
-- **Scope:** Job Business Tracking
+- **Mobile:** Will be primarily developed for mobile but while not planned can potentially have a website version as well if time and desire is there for such.
+- **Story:** Documents and tracks clients that the user has as a way to keep records, have integrated information about location of user, invoice and payment features for easy transactional efforts between user and client.
+- **Market:** Users that  want to start working and have a entrepreneurship attitude towards creating a business for them selves and being organized in doing so to create a wonderful experience for the customer and for themselves.
+- **Habit:** This app will be used whenever in communication with customers and when organizing information and filling documentation and paper work for individuals that require work from the user/worker. The frequency in which it is used will depend on each user and how many clients they have or how much work they are completeling.
+- **Scope:** Initialy we want to start by creating a good experience for users to document and enhance the experience for the user to organize different jobs they complete with information about the customer like location, name, job description and also communicate payments and invoice documentation to customers. Potentially then open the application to have customers looking for specific jobs and create an end to end communciation between users and customers to exchange information, payment, etc.
 
 ## Product Spec
 
@@ -43,7 +43,6 @@ Tracks the clients information for different types of work that the users do for
 
 **Required Must-have Stories**
 
-* Describe Required **User Stories**
 * Our app keeps track of clients(CRM)
 * Google Maps Integration
 * Use time-tracking to monitor length of jobs 
@@ -57,14 +56,12 @@ Tracks the clients information for different types of work that the users do for
 * Having rating for customer and worker
 * Communication between customer and worker through app
 * Tipping option for processing payment
-* ...
 
 ### 2. Screen Archetypes
 
 * Login
-   * [list associated required story here]
 * Registration
-   * [list associated required story here]
+   * 
 * Detail
    * [list associated required story here]
 * Registration
