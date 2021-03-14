@@ -14,6 +14,7 @@ Original App Design Project - README Template
 ## Overview
 ### Description
 Tracks the clients information for different types of work that the users do for their client, and integrates a map, payments, Invoices, and descriptions of the work.
+
 - **What does your app do?**
     - Our app keeps track of clients(CRM)
     - Google Maps Integration
@@ -60,20 +61,24 @@ Tracks the clients information for different types of work that the users do for
 ### 2. Screen Archetypes
 
 * Login
-* Registration
-   * 
-* Detail
-   * [list associated required story here]
-* Registration
-   * [list associated required story here]
-* Creation
-   * [list associated required story here]
-* Profile
-   * [list associated required story here]
-* Settings
-   * [list associated required story here]
+* Registration - Where name, age, email, and company name is to be recorded
+   * Upon opening of the application, the suer is prompted to login to gain access to their customer information.
+* Detail - Information about job, customer, location, price
+   * Clicking on the colapsed map, opens it into a wide view
+   * Clicking on the edit button allows for the editing of current or missing data about that customer
 * Maps
-   * [list associated required story here]
+   * Allow the ability to open navigation app with the location in the map
+   * Ability to zoom in/out
+* Jobs List
+   * Allows for the initiation of a new customer to be recorded with data.
+   * Allows for the clicking on a specific jobs for more detailed information.
+* Profile
+   * Allows user to see metrics about jobs, like total income, jobs, etc.
+   * Can add a company logo/User as profile icon.
+   * Change profile information like email, name, company(If made) with edit button.
+* Settings
+   * Let people change app notification
+   * Dark mode/ Light mode
 
 
 
@@ -81,18 +86,24 @@ Tracks the clients information for different types of work that the users do for
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Jobs List
+* Profile
+* Settings
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in 
+    * Account creation/ Sign in if no log in is available
+* Jobs Tracker List 
+    * Jumps to more detailed view of selected job
+* Detailed View of Job 
+    * Edit Page to update, add, or remove information
+    * Opens expanded map view of location of Job
+* Expanded Map 
+    * Navigation Applicaiton
+* Profile 
+    * Text field to be modified. 
+* Settings 
+    * Toggle settings
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
