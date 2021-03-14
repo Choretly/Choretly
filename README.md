@@ -54,6 +54,8 @@ Tracks the clients information for different types of work that the users do for
 
 * Registration for customer
 * Registration for contractor
+* Swiping Leftjobs from list view to send invoice or process payment with customer
+* Swiping Right to archieve the job
 * Having rating for customer and worker
 * Communication between customer and worker through app
 * Tipping option for processing payment
@@ -70,6 +72,7 @@ Tracks the clients information for different types of work that the users do for
    * Allow the ability to open navigation app with the location in the map
    * Ability to zoom in/out
 * Jobs List
+   * Display a timer that shows length of job and timer for when it has been completed to record time worked. 
    * Allows for the initiation of a new customer to be recorded with data.
    * Allows for the clicking on a specific jobs for more detailed information.
 * Profile
@@ -96,8 +99,10 @@ Tracks the clients information for different types of work that the users do for
 * Jobs Tracker List 
     * Jumps to more detailed view of selected job
 * Detailed View of Job 
+    * Timer tracker for job
     * Edit Page to update, add, or remove information
     * Opens expanded map view of location of Job
+    * Upon completion of job, ability to send invoice or process payment
 * Expanded Map 
     * Navigation Applicaiton
 * Profile 
