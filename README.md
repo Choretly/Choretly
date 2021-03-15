@@ -111,7 +111,6 @@ Tracks the client information/ job information for any type of job the applicati
     * Toggle settings
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src='wireframe.jpeg' title='wireframe' width='600' alt='wireframe' />
 
 ### [BONUS] Digital Wireframes & Mockups
