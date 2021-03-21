@@ -118,7 +118,9 @@ Tracks the client information/ job information for any type of job the applicati
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+<img src='Schemas/ChoretlySchema.jpg' title='Schema' width='600' alt='Schema' />
+
+
 ### Models
 [Add table of models]
 ### Networking
