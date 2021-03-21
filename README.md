@@ -118,7 +118,7 @@ Tracks the client information/ job information for any type of job the applicati
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-<img src='Schemas/ChoretlySchema.jpg' title='Schema' width='600' alt='Schema' />
+<img src='Schemas/ChoretlySchema.jpg' title='Schema' width='750' alt='Schema' />
 
 
 ### Models
