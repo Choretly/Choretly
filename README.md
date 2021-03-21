@@ -122,7 +122,11 @@ Tracks the client information/ job information for any type of job the applicati
 
 
 ### Models
-[Add table of models]
+<img src='Schemas/UserModel.jpg' title='UserModel' width='700' alt='UserModel' />
+<img src='Schemas/CustomerModel.jpg' title='CustomerModel' width='700' alt='CustomerModel' />
+<img src='Schemas/InvoiceModel.jpg' title='InvoiceModel' width='700' alt='InvoiceModel' />
+<img src='Schemas/JobModel.jpg' title='JobModel' width='700' alt='JobModel' />
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
