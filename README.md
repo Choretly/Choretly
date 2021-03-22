@@ -111,7 +111,7 @@ Tracks the client information/ job information for any type of job the applicati
     * Toggle settings
 
 ## Wireframes
-<img src='wireframe.jpeg' title='wireframe' width='600' alt='wireframe' />
+<img src='LowFidWire.jpg' title='wireframe' width='600' alt='wireframe' />
 
 ### [BONUS] Digital Wireframes & Mockups
 
