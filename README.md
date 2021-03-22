@@ -128,6 +128,52 @@ Tracks the client information/ job information for any type of job the applicati
 <img src='Schemas/JobModel.jpg' title='JobModel' width='700' alt='JobModel' />
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+## List of network requests by screen
+
+ Active Job Screen
+- (Read/GET) Query description, adddress, and information about job
+
+```
+let query = PFQuery(className:"Jobs")
+query.whereKey("User", equalTo: currentUser)
+query.findObjectsInBackground { (jobs: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let jobs = job {
+      print("Successfully retrieved job.")
+  // TODO: Do something with job...
+   }
+}
+```
+- (Update/PUT) Edit information about a job
+- (Create/POST) Create a new job
+-
+Daily Agenda Screen
+- (Create/POST) Create a new job object
+
+Job List Screen
+- (Read/GET) Query logged in user jobs
+- (Delete) Delete exist a job
+
+Profile Screen
+- (Read/GET) Query logged in user object
+```
+let query = PFQuery(className:"Users")
+query.whereKey("User", equalTo: currentUser)
+query.findObjectsInBackground { (users: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let users = user {
+  // TODO: Do something with user...
+   }
+}
+```
+- (Update/PUT) Update user profile image,email, company
+
+Customer Edit Screen
+- (Read/GET) Query current data if any
+- (Update/PUT) Update user customer information
+
+Job Edit Screen
+- (Read/GET) Query current data if any
+- (Update/PUT) Update user job information
