@@ -10,6 +10,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Build Progress](#Build-Progress)
 
 ## Overview
 ### Description
@@ -44,11 +45,12 @@ Tracks the client information/ job information for any type of job the applicati
 
 **Required Must-have Stories**
 
-* Our app keeps track of clients(CRM)
-* Google Maps Integration
-* Use time-tracking to monitor length of jobs 
-* Invoice/What you owe tracking
-* Payment Integration
+* Our app keeps track of clients(CRM) []
+* Google Maps Integration []
+* Use time-tracking to monitor length of jobs []
+* Invoice/What you owe tracking []
+* Payment Integration [] 
+* Configure Firebase [x]
 
 **Optional Nice-to-have Stories**
 
@@ -177,3 +179,7 @@ Customer Edit Screen
 Job Edit Screen
 - (Read/GET) Query current data if any
 - (Update/PUT) Update user job information
+
+# Build Progress
+
+<img src="https://github.com/Choretly/Choretly/blob/Job_Creation/BuildProgress.gif" width=250><br>
