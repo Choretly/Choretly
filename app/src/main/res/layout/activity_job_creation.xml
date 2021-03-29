@@ -93,7 +93,7 @@
         android:layout_marginStart="101dp"
         android:layout_marginTop="19dp"
         android:contentDescription="logo"
-        app:srcCompat="whatsapp_image_2021_03_28_at_7_00_03_pm" />
+        android:src="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -102,6 +102,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
-        app:srcCompat="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
+        android:src="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
 
 </RelativeLayout>
