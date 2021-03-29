@@ -54,7 +54,7 @@ Tracks the client information/ job information for any type of job the applicati
 
 * Registration for customer
 * Registration for contractor
-* Swiping Leftjobs from list view to send invoice or process payment with customer
+* Swiping Left jobs from list view to send invoice or process payment with customer
 * Swiping Right to archieve the job
 * Having rating for customer and worker
 * Communication between customer and worker through app
