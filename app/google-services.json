@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058107273183",
+    "project_id": "choretly",
+    "storage_bucket": "choretly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058107273183:android:3550c314bd5545166d5e6a",
+        "android_client_info": {
+          "package_name": "com.example.choretly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058107273183-qqh9t3esgrk0okh5a9cukqovve0l7fkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxStnFF9BqYEUtJIeNeDeZ2zI0UilCTOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058107273183-qqh9t3esgrk0okh5a9cukqovve0l7fkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
