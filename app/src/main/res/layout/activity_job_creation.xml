@@ -1,107 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".JobCreation">
 
     <EditText
-        android:id="@+id/tvName"
-        android:layout_width="327dp"
+        android:id="@+id/address_field"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/jobType_field"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="238dp"
-        android:autofillHints=""
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Address"
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/tvJob"
-        android:layout_width="327dp"
+        android:id="@+id/jobType_field"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/name_field"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="337dp"
-        android:autofillHints=""
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
         android:hint="Job Type"
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/tvAddress"
-        android:layout_width="327dp"
+        android:id="@+id/name_field"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="441dp"
-        android:autofillHints=""
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="43dp"
         android:ems="10"
-        android:hint="Address"
+        android:hint="Name"
         android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/saveBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginBottom="140dp"
-        android:backgroundTint="#228826"
-        android:text="save" />
-
-    <Button
-        android:id="@+id/cancelBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="257dp"
-        android:layout_marginBottom="140dp"
-        android:backgroundTint="#FA1F1F"
-        android:text="cancel" />
-
     <TextView
-        android:id="@+id/JobCreator"
-        android:layout_width="148dp"
-        android:layout_height="42dp"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="137dp"
-        android:layout_marginTop="13dp"
-        android:text="Job Creator"
-        android:textSize="24sp" />
-
-    <ImageView
-        android:id="@+id/Logo"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="129dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="19dp"
-        android:contentDescription="logo"
-        android:src="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Job Creator"
+        android:textColor="#020202"
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="133dp"
+        android:layout_height="128dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
 
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#B0C30014"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="70dp"
+        android:layout_toStartOf="@+id/cancel_btn"
+        android:backgroundTint="#B055943A"
+        android:text="Save" />
 </RelativeLayout>
