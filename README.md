@@ -182,4 +182,11 @@ Job Edit Screen
 
 # Build Progress
 
+*Sprint 1*
+
 <img src="https://github.com/Choretly/Choretly/blob/Job_Creation/BuildProgress.gif" width=250><br>
+
+Sprint 2:
+(No submission)
+
+Sprint 3:
