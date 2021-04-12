@@ -48,8 +48,6 @@ Tracks the client information/ job information for any type of job the applicati
 * Our app keeps track of clients(CRM) []
 * Google Maps Integration []
 * Use time-tracking to monitor length of jobs []
-* Invoice/What you owe tracking []
-* Payment Integration [] 
 * Configure Firebase [x]
 
 **Optional Nice-to-have Stories**
@@ -57,16 +55,18 @@ Tracks the client information/ job information for any type of job the applicati
 * Registration for customer
 * Registration for contractor
 * Swiping Leftjobs from list view to send invoice or process payment with customer
-* Swiping Right to archieve the job
+* Swiping Right to archive the job
 * Having rating for customer and worker
 * Communication between customer and worker through app
 * Tipping option for processing payment
+* Payment Integration []
+* Invoice/What you owe tracking []
 
 ### 2. Screen Archetypes
 
 * Login
 * Registration - Where name, age, email, and company name is to be recorded
-   * Upon opening of the application, the suer is prompted to login to gain access to their customer information.
+   * Upon opening of the application, the user is prompted to login to gain access to their customer information.
 * Detail - Information about job, customer, location, price
    * Clicking on the colapsed map, opens it into a wide view
    * Clicking on the edit button allows for the editing of current or missing data about that customer
