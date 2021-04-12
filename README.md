@@ -182,11 +182,18 @@ Job Edit Screen
 
 # Build Progress
 
-*Sprint 1*
+## Sprint 1
 
 <img src="https://github.com/Choretly/Choretly/blob/Job_Creation/BuildProgress.gif" width=250><br>
 
-Sprint 2:
+## Sprint 2:
 (No submission)
 
-Sprint 3:
+## Sprint 3:
+### User Stories
+
+User stories completed:
+- [X] Configured Firebase server on backend to store information
+- [X] User can sign up for an account with information passing to the database on Firebase.
+
+### Video/GIF Walkthrough:
