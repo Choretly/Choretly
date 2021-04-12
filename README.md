@@ -195,5 +195,7 @@ Job Edit Screen
 User stories completed:
 - [X] Configured Firebase server on backend to store information
 - [X] User can sign up for an account with information passing to the database on Firebase.
+- [X] User (while logged in) can create a job, which gets saved in the database.
 
 ### Video/GIF Walkthrough:
+<img src="https://github.com/Choretly/Choretly/blob/main/Gifs/Sprint%203/Database%20Gif.gif?raw=true" width=250><br>
