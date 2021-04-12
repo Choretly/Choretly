@@ -201,3 +201,13 @@ User stories completed:
 
 ### Video/GIF Walkthrough:
 <img src="https://github.com/Choretly/Choretly/blob/main/Gifs/Sprint%203/Database%20Gif.gif?raw=true" width=250><br>
+
+**Project Board Updated**
+
+## Sprint 4:
+### User Stories
+
+User stories:
+- [ ] Create bottom 3-tab navigation bar across all screens
+- [ ] Create all screens/activities from Figma Wireframe and link via navigation
+- [ ] Resolve Sign-Up and Login issues in Firebase
