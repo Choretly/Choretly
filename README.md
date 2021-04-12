@@ -113,9 +113,11 @@ Tracks the client information/ job information for any type of job the applicati
     * Toggle settings
 
 ## Wireframes
+### Low Fidelity Frames
 <img src='LowFidWire.jpg' title='wireframe' width='600' alt='wireframe' />
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://github.com/Choretly/Choretly/blob/main/ChoretlyFigmaWareframe.jpg?raw=true"><br>
 
 ### [BONUS] Interactive Prototype
 
