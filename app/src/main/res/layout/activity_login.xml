@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2021_03_28_at_7_00_03_pm" />
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_field"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_field"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#3D7C27"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#4B8C33"
+        android:text="Register"
+        android:onClick="register"/>
+
+</RelativeLayout>
