@@ -208,6 +208,16 @@ User stories completed:
 ### User Stories
 
 User stories:
+- [X] Complete Login Activity functionality so existing user can log in to system
+- [X] Resolve Sign-Up and Login issues in Firebase
+
+### Video/GIF Walkthrough:
+<img src="https://github.com/Choretly/Choretly/blob/main/Gifs/Sprint4/Signin.gif?raw=true" width=250><br>
+
+## Sprint 5:
+### User Stories
 - [ ] Create bottom 3-tab navigation bar across all screens
 - [ ] Create all screens/activities from Figma Wireframe and link via navigation
-- [ ] Resolve Sign-Up and Login issues in Firebase
+- [ ] Complete User/Company Profile Activity
+- [ ] Complete Daily Agenda View
+- [ ] Work on the Hamburger Menu
