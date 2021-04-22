@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="25dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#4BA52B"
+        >
+        <!--        android:background="@drawable/curve_border"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <!--        android:background="@drawable/curve_border"-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jobnum"
+                android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/jobID2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:includeFontPadding="false"
+                android:text="Job ID"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/jobIdNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jobID2"
+                android:layout_centerHorizontal="true"
+                android:text="962"
+                android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/jobnum"
+                android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/jTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:includeFontPadding="false"
+                android:text="Paint Kitchen"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jTitle2"
+                android:layout_marginLeft="12dp"
+                android:text="3:00PM - 4:00PM"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
