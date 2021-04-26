@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         email_field = (EditText) findViewById(R.id.email_field);
         password_field = (EditText) findViewById(R.id.password_field);
         login_btn = (Button) findViewById(R.id.login_btn);
-        register_btn = findViewById(R.id.register_btn);
+        register_btn = (Button) findViewById(R.id.register_btn);
         fAuth = FirebaseAuth.getInstance();
 
 
@@ -73,18 +73,18 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         register_btn.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }
 
 
-
-    public void register(View view) {
-        startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
-        finish();
-    }
+//
+//    public void register(View view) {
+//        startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
+//        finish();
+//    }
 }
