@@ -17,7 +17,7 @@
         android:layout_marginStart="79dp"
         android:layout_marginTop="35dp"
         android:ems="10"
-        android:hint="Address"
+        android:hint="Time"
         android:inputType="textPersonName" />
 
     <EditText
@@ -90,4 +90,12 @@
         android:layout_toStartOf="@+id/cancel_btn"
         android:backgroundTint="#B055943A"
         android:text="Save" />
+
+    <Button
+        android:id="@+id/agenda_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B055943A"
+        android:text="Agenda"
+        android:layout_marginLeft="15dp"/>
 </RelativeLayout>

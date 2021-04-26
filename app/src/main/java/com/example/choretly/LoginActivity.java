@@ -21,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText email_field, password_field;
     Button login_btn;
     FirebaseAuth fAuth;
+    Button register_btn;
 
 
 
@@ -32,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         email_field = (EditText) findViewById(R.id.email_field);
         password_field = (EditText) findViewById(R.id.password_field);
         login_btn = (Button) findViewById(R.id.login_btn);
+        register_btn = findViewById(R.id.register_btn);
         fAuth = FirebaseAuth.getInstance();
 
 
@@ -59,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), JobCreation.class));
                         }else {
                             Toast.makeText(LoginActivity.this, "Email or Password is incorrect!", Toast.LENGTH_SHORT).show();
                         }
@@ -69,7 +71,17 @@ public class LoginActivity extends AppCompatActivity {
                 });
             }
         });
+
+        register_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
+            }
+        });
     }
+
+
 
     public void register(View view) {
         startActivity(new Intent(getApplicationContext(),RegisterActivity.class));

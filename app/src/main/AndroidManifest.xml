@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Choretly">
         <activity android:name=".JobCreation"></activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".LoginActivity"
             tools:ignore="Instantiatable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
