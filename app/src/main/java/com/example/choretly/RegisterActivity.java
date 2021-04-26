@@ -32,11 +32,11 @@ public class RegisterActivity extends AppCompatActivity {
         register_btn = (Button) findViewById(R.id.register_btn);
         fAuth = FirebaseAuth.getInstance();
 
-        if (fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            finish();
-
-        }
+//        if (fAuth.getCurrentUser() != null){
+//            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+//            finish();
+//
+//        }
 
         register_btn.setOnClickListener(new View.OnClickListener() {
             @Override
