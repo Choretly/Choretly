@@ -12,6 +12,8 @@ import com.example.choretly.Models.Agenda;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
+import org.w3c.dom.Text;
+
 public class AgendaAdapter extends FirebaseRecyclerAdapter<Agenda, AgendaAdapter.AgendaViewholder> {
 
     public AgendaAdapter(@NonNull FirebaseRecyclerOptions<Agenda> options)
@@ -31,6 +33,8 @@ public class AgendaAdapter extends FirebaseRecyclerAdapter<Agenda, AgendaAdapter
         // "person.class")to appropriate view in Card
         // view (here "person.xml")
         holder.jobIdNum.setText(model.getJobId());
+        holder.jTitle2.setText(model.getJobName());
+        holder.jobTime.setText(model.getJobTime());
 
     }
 
@@ -49,12 +53,17 @@ public class AgendaAdapter extends FirebaseRecyclerAdapter<Agenda, AgendaAdapter
     // view (here "person.xml")
     class AgendaViewholder extends RecyclerView.ViewHolder {
         TextView jobIdNum;
+        TextView jTitle2;
+        TextView jobTime;
 
         public AgendaViewholder(@NonNull View itemView)
         {
             super(itemView);
 
             jobIdNum = itemView.findViewById(R.id.jobIdNum);
+            jTitle2 = itemView.findViewById(R.id.jTitle2);
+            jobTime = itemView.findViewById(R.id.jobTime);
+
 
         }
     }

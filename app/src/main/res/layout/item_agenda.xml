@@ -56,18 +56,19 @@
                 android:layout_toRightOf="@+id/jobnum"
                 android:layout_marginLeft="10dp">
 
-            <TextView
-                android:id="@+id/jTitle2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="0dp"
-                android:includeFontPadding="false"
-                android:text="Paint Kitchen"
-                android:textSize="20sp"
-                android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:id="@+id/jTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:includeFontPadding="false"
+                    android:text="Paint Kitchen"
+                    android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/jobTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/jTitle2"
